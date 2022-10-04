@@ -112,3 +112,27 @@ a {
     margin: 30px 0;
 }
 /* Fim CSS Destaque */
+/* Início CSS Novidades */
+.novidades {
+    background-color: #082373;
+    padding: 50px;
+}
+.novidades .text-body{
+    width: 80%;
+    margin: 70px auto;
+}
+.novidades h2 {
+    color: #fff;
+}
+.novidades p {
+    color: #fff;
+}
+.novidades a {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: violet;
+    padding: 6px 12px;
+    background-color: #fff;
+    font-weight: 400;
+}
+/* Fim CSS novidades */
