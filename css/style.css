@@ -136,3 +136,21 @@ a {
     font-weight: 400;
 }
 /* Fim CSS novidades */
+/* Início CSS Galeria */
+.galeria {
+    margin: 60px auto 20px;
+}
+.galeria h2 {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+.galeria .gallery {
+    width: 30%;
+    margin: 14px auto 50px;
+}
+/* Fim CSS Galeria */
