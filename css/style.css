@@ -77,7 +77,7 @@ a {
     #btn-mobile {
         display: flex;
         padding: 0.5rem 1rem;
-        font-size: rem;
+        font-size: 1rem;
         border: none;
         background: none;
         cursor: pointer;
