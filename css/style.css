@@ -108,6 +108,26 @@ a {
         transform: rotate(-135deg);
         top: -7px;
     }
+    /* CSS página media.html */
+
+    .embed-container {
+        position: relative;
+        padding-bottom: 56,25%;
+        height: 100px;
+        max-width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 100px;
+    }
+
+    .embed-container iframe, .embed-container object, .embed-container embed {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 /* CSS configurando Banner */
@@ -241,4 +261,24 @@ a {
 .rodape p.direitos {
     text-align: center;
     margin-top: 40px;
+}
+
+/* CSS página media.html */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56,25%;
+    height: 100px;
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
