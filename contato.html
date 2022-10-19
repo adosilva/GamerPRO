@@ -20,6 +20,7 @@
             </button>
             <ul id="menu" role="menu">
                 <li><a class="linkMenu" href="index.html">Home</a></li>
+                <li><a class="linkMenu" href="media.html">#Streaming</a></li>
                 <li><a class="linkMenu" href="jogos.html">Jogos</a></li>
                 <li><a class="linkMenu" href="produtos.html">Produtos</a></li>
                 <li><a class="linkMenu" href="contato.html">Contato</a></li>
@@ -27,223 +28,35 @@
         </nav>
     </header>
     <!-- Fim do menu responsivo -->
-
-    <!-- Início do Carousel Página Principal -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="500">
-                    <img src="./img/selection/slide_01.png"
-                    class="d-block w-100"
-                    alt="..."
-                    />
-                </div>
-                <div class="carousel-item" data-bs-interval="1000">
-                    <img src="./img/selection/slide_02.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                    />
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/selection/slide_03.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                    />
-                </div>
-            </div>   
-            <button
-                class="carousel-control-prev"
-                data-bs-target="#carouselExampleInterval"
-                type="button"
-                data-bs-slide="prev"
-            >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-            </button>
-            <button
-                class="carousel-control-next"
-                data-bs-target="#carouselExampleInterval"
-                type="button"
-                data-bs-slide="next"
-            >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Próximo</span>
-            </button>
-    </div>
-    <!-- Fim do Carousel da Página Principal-->
-    <!-- Início do Banner -->
-    <div class="section-banner-home">
-        <div class="container-fluid">
-            <div class="row m-0">
-                <div class="col-12 col-md-6">
-                    <figure>
-                        <img src="./img/400px-Super_Nintendo.jpg" class="img-fluid" alt="banner-home">
-                    </figure>
-                </div>
-                <div class="col-12 col-md-6">
-                    <section class="texto-banner d-none d-md-block">
-                        <h1>Venha conhecer nosso diferencial!</h1>
-                        <p class="d-none d-md-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid dolor laborum, cupiditate explicabo, quisquam neque voluptates adipisci impedit non voluptate molestias? Perspiciatis molestias libero hic itaque et, totam nisi.</p>
-                        <a href="jogos.html">Saiba mais...</a>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fim Banner -->
-    <!-- Início Área Destaque-->
-    <div class="destaque">
+    
+    <!-- Início Form Contato-->
+    <div class="contato">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <!-- início da tag section com texto de destaque -->
+                <!-- início da tag section com texto de contato -->
                 <section class="col-12">
-                    <h2>Que tal conhecer nossos #Games em destaque!</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat tenetur omnis rem dolor laborum. Saepe aut sunt excepturi explicabo quis eos, eum suscipit porro odio exercitationem nemo maxime soluta ipsa.</p>
+                    <h2>Entre em contato conosco!</h2>
+                    <p>Para dúvidas, elogios e reclamações.</p>
                 </section>
-                <!-- Fim da tag section com o texto de destaque-->
-                <!-- Início Imagem 1 -->
-                <div class="col-6 col-md-2 pr-0">
-                    <figure>
-                        <a href="jogos.html"><img src="./img/painel-super-mario-bros.jpg" alt="Galeria" width="100%"></a>
-                        <figcaption>Jogo <br> Ano </figcaption>
-                    </figure>
+
+                <!-- Fim da tag section com o texto de contato-->
+                <!-- Início Formulário -->
+                <div class="col-md-4">
+                    <div class="form_main">
+                        <h4 class="heading"><strong>Contato</strong>Expresso <span></span></h4>
+                        <div class="form">
+                            <form action="#" method="post" id="contactFrm" name="contactFrm">
+                                <input type="text" required="" placeholder="Por favor, insira o nome completo" value="" name="name" class="txt">
+                                <input type="text" required="" placeholder="Por favor, insira o seu telefone" value="" name="mob" class="txt">
+                                <input type="text" required="" placeholder="Por favor, insira o seu email" value="" name="email" class="txt">
+
+                                <textarea placeholder="Insira sua mensagem" name="mess" type="text" class="text_3" cols="30" rows="10"></textarea>
+                                <input type="submit" value="submit" name="submit" class="txt2">
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <!-- Fim Imagem 1 -->
-                <!-- Início Imagem 2 -->
-                <div class="col-6 col-md-2 pr-0">
-                    <figure>
-                        <a href="jogos.html"><img src="./img/painel-super-mario-bros.jpg" alt="Galeria" width="100%"></a>
-                        <figcaption>Jogo <br> Ano </figcaption>
-                    </figure>
-                </div>
-                <!-- Fim Imagem 2 -->
-                <!-- Início Imagem 3 -->
-                <div class="col-6 col-md-2 pr-0">
-                    <figure>
-                        <a href="jogos.html"><img src="./img/painel-super-mario-bros.jpg" alt="Galeria" width="100%"></a>
-                        <figcaption>Jogo <br> Ano </figcaption>
-                    </figure>
-                </div>
-                <!-- Fim Imagem 3 -->
-                <!-- Início Imagem 4 -->
-                <div class="col-6 col-md-2 pr-0">
-                    <figure>
-                        <a href="jogos.html"><img src="./img/painel-super-mario-bros.jpg" alt="Galeria" width="100%"></a>
-                        <figcaption>Jogo <br> Ano </figcaption>
-                    </figure>
-                </div>
-                <!-- Fim Imagem 4 -->
-                <!-- Início Imagem 5 -->
-                <div class="col-6 col-md-2 pr-0">
-                    <figure>
-                        <a href="jogos.html"><img src="./img/painel-super-mario-bros.jpg" alt="Galeria" width="100%"></a>
-                        <figcaption>Jogo <br> Ano </figcaption>
-                    </figure>
-                </div>
-                <!-- Fim Imagem 5 -->
-                
-                <!-- Início saiba mais -->
-                <div class="col-12">
-                    <a href="#">Saiba Mais!</a>
-                </div>
-                <!-- Fim saiba mais -->
-            </div>
-        </div>
-    </div>
-    <!-- Início área novidades -->
-    <div class="novidades">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- início texto novidades-->
-                <div class="col-md-6">
-                    <section class="text-body">
-                        <h2>Que tal conhecer nossas #Novidades!</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima dolores numquam fugiat fuga in? Eaque similique ex et officia natus. Quidem molestiae unde nobis aliquid odio consectetur repellat velit minima.</p>
-                        <a class="btn-banner" href="#" target="_blank">Saiba mais!</a>
-                    </section>
-                </div>
-                <!-- fim texto novidades -->
-                <!-- Início imagem novidades -->
-                <div class="col-md-6">
-                    <figure>
-                        <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="banner-home">
-                    </figure>
-                </div>
-                <!-- fim imagem novidades -->
-            </div>
-        </div>
-    </div>
-    <!-- Início Galeria -->
-    <div class="galeria d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <!-- início texto galerias -->
-                <div class="col-12">
-                    <section class="texto-galeria">
-                        <h2>Conheça nossa galeria!</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sit non odio, quae culpa adipisci deserunt vel dolorem. Ut sed voluptatibus veniam debitis dolorem in nesciunt eaque numquam sit harum?</p>
-                    </section>
-                </div>
-                <!-- fim texto galerias-->
-                <!-- início imagem 1 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 1 da galeria-->
-                <!-- início imagem 2 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 2 da galeria-->
-                <!-- início imagem 3 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 3 da galeria-->
-                <!-- início imagem 4 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 4 da galeria-->
-                <!-- início imagem 5 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 5 da galeria-->
-                <!-- início imagem 6 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 6 da galeria-->
-                <!-- início imagem 7 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 7 da galeria-->
-                <!-- início imagem 8 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 8 da galeria-->
-                <!-- início imagem 9 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 9 da galeria-->
-                <!-- início imagem 10 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 10 da galeria-->
-                <!-- início imagem 11 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 11 da galeria-->
-                <!-- início imagem 12 da galeria-->
-                <div class="gallery col-6 col-md-3">
-                    <img src="./img/painel-super-mario-bros.jpg" class="img-fluid" alt="img-galeria">
-                </div>
-                <!-- fim imagem 12 da galeria-->
+                <!-- Fim Formulario -->
 
                 <!-- início footer -->
                 <footer class="rodape">
