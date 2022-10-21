@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
     <link rel="shortcut icon" href="./img/_ico/brazil-.ico">
     <title>.:: Site Games | GamerPRO ::.</title>
 </head>
@@ -43,59 +42,22 @@
                 <!-- Fim da tag section com o texto de contato-->
                 <!-- Início Formulário -->
                 <div class="col-md-6">
-                    <div class="well well-sm">
-                        <form class="form-horizontal" method="post">
-                            <fieldset>
-                                <legend class="text-left header">Preencha suas informações:</legend>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input id="fname" name="name" type="text" placeholder="Insira seu primeiro nome" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input id="lname" name="name" type="text" placeholder="Insira seu último nome" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input id="email" name="email" type="email" placeholder="Insira seu e-mail" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <input id="phone" name="phone" type="text" placeholder="Insira seu telefone" class="form-control" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <textarea id="message" name="message"  placeholder="Insira sua mensagem que retornaremos em até 2 dias úteis" class="form-control" rows="7" required></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-12 text-center">
-                                        <button type="submit" class="formbutton">Enviar</button>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>     
-                <!-- Fim Formulario -->
-                <div class="col-md-6">
-                    <div>
-                        <div class="panel panel-default">
-                            <div class="text-center header">#Onde estamos localizados</div>
-                            <div class="panel-body text-center">
-                                <h4>Endereço</h4>
-                                <div>Avenida do Prado, 123 <br />
-                                Centro, São Paulo - SP - CEP: 12345-000</div>
-                                <hr />
-                            </div>
-                        <div id="map1" class="map">
+                    <div class="form_main">
+                        <h4 class="heading"><strong>Contato</strong>Expresso <span></span></h4>
+                        <div class="form">
+                            <form action="#" method="post" id="contactFrm" name="contactFrm">
+                                <input type="text" required="" placeholder="Por favor, insira o nome completo" value="" name="name" class="txt">
+                                <input type="text" required="" placeholder="Por favor, insira o seu telefone" value="" name="mob" class="txt">
+                                <input type="text" required="" placeholder="Por favor, insira o seu email" value="" name="email" class="txt">
+
+                                <textarea placeholder="Insira sua mensagem" name="mess" type="text" class="text_3" ></textarea>                                
+                            </form>
+                            <input type="submit" value="submit" name="submit" class="txt2">
                         </div>
                     </div>
                 </div>
+                <!-- Fim Formulario -->
+
                 <!-- início footer -->
                 <footer class="rodape">
                     <div class="container">
@@ -147,16 +109,10 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="./js/map.js"></script>
-
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
 </body>
 
     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="./js/script_menu.js"></script>
-    
-
 
 </html>

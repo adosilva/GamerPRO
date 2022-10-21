@@ -415,9 +415,13 @@ a {
     padding: 10px 0 10px 5px;
     width: 100%;
 }
-.txt2[type="submit"] {
-    background: #242424 none repeat scroll 0 0;
-    border: 1px solid #4f5c04;
+.formbutton[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #87c0e6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #87c0e6;
+    box-shadow: inset 0px 1px 0px 0px #87c0e6;
+    background-color: #297ee6;
+    display: inline-block;
+    border: 1px solid #2489d6;
     border-radius: 25px;
     color: #fff;
     font-size: 16px;
@@ -428,6 +432,13 @@ a {
     text-transform: uppercase;
     width: 30%;
 }
+.formbutton:hover {
+    background-color: #31a1de;
+}
+.formbutton:active {
+    position: relative;
+    top: 1px;
+}
 .txt2:hover {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #5793ef;
@@ -435,3 +446,12 @@ a {
 }
 
 /* Fim CSS Contato */
+
+/* Início mapa CSS */
+.map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+/* Fim mapa CSS */
