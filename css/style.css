@@ -449,8 +449,14 @@ a {
 
 /* Início mapa CSS */
 .map {
-    min-width: 300px;
-    min-height: 300px;
+    /* min-width: 300px;
+    min-height: 300px; */
+
+    width: auto;
+    height: auto;
+}
+
+.map iframe {
     width: 100%;
     height: 100%;
 }
